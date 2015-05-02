@@ -6,6 +6,7 @@ var Greeter = (function () {
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
         //dasdasda
+        //blabla
     }
     Greeter.prototype.start = function () {
         var _this = this;
